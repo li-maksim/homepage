@@ -35,6 +35,18 @@ body {
     font-weight: normal;
 }
 
+.icon_link {
+    text-decoration: none;
+}
+
+i {
+    font-size: 24px;
+}
+
+.devicon-linkedin-plain.colored {
+    color: black;
+}
+
 .about {
     position: relative;
     display: flex;
@@ -81,14 +93,10 @@ body {
     gap: 20px;
 }
 
-.icon_link {
-    text-decoration: none;
+.my_work .projects .project_block .screen {
+    max-width: 200px;
 }
 
-i {
-    font-size: 24px;
-}
-
-.devicon-linkedin-plain.colored {
-    color: black;
+.icon {
+    width: 16px;
 }
