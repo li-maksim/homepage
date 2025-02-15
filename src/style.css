@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+font-family: 'Roboto', sans-serif;
+}
+
 body {
-    margin: 0
+    margin: 0;
+    --bg-color: #259dc2;
+    --shadow: 2px 3px 5px 1px rgba(0,0,0,0.25);
+}
+
+.background {
+    content: '';
+    background-color: var(--bg-color);
+    width: 100vw;
+    height: 600px;
+    display: block;
+    z-index: -2;
+    position: absolute;
+    top: -190px;
+    left: 0;
+    transform: skew(0deg, -10deg);
+    box-shadow: var(--shadow);
 }
 
 .container {
@@ -7,8 +30,63 @@ body {
     max-width: 1200px;
 }
 
-.photo {
-    max-width: 350px;
+.header {
+    font-family: 'Playfair Display';
+    font-weight: normal;
+}
+
+.about {
+    position: relative;
+    display: flex;
+    padding: 30px 40px;
+}
+
+.about .h1 {
+    position: absolute;
+    top: 360px;
+    left: 125px;
+    color: white;
+    font-size: 50px;
+}
+
+.about .photo {
+    max-width: 450px;
+}
+
+.about .text_block {
+    box-sizing: border-box;
+    padding: 20px 15px;
+    margin-top: 50px;
+    max-height: 350px;
+    box-shadow: var(--shadow);
+    background-color: white;
+}
+
+.about .text_block .h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.about .text_block .descr {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.about .text_block .icons {
+    margin-top: 130px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+.icon_link {
+    text-decoration: none;
+}
+
+i {
+    font-size: 24px;
 }
 
 .devicon-linkedin-plain.colored {
