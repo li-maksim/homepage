@@ -1,0 +1,16 @@
+body {
+    margin: 0
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.photo {
+    max-width: 350px;
+}
+
+.devicon-linkedin-plain.colored {
+    color: black;
+}
