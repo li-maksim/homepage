@@ -1,0 +1,54 @@
+@media (max-width: 1020px) {
+    .my_work .projects {
+        justify-content: center;
+        gap: 40px;
+    }
+
+}
+ 
+@media (max-width: 990px) {
+    .about .text_block .icons {
+        margin-top: 65px;
+    }
+
+    .footer .photo {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 890px) {
+    .footer .photo {
+        max-width: 420px;
+        height: 300px;
+    }
+}   
+
+@media (max-width: 810px) {
+    .photo {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .about .h1 {
+        top: 60px;
+        left: 400px;
+    }
+
+    .about .text_block {
+        position: absolute;
+        height: 500px;
+        width: 400px;
+        z-index: -2;
+        left: 300px;
+        top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .about .text_block .icons {
+        display: none;
+    }
+
+    .footer .container .text_block {
+        font-size: 14px;
+    }
+}  
