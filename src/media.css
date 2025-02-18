@@ -1,3 +1,10 @@
+@media (min-width: 2100px) {
+    .background {
+        height: 700px;
+        top: -290px;
+    }
+}
+
 @media (max-width: 1020px) {
     .my_work .projects {
         justify-content: center;
